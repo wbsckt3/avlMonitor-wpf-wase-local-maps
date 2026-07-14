@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "AvlMonitor — Georreferenciación de móviles en tiempo real",
+    "description": "Cliente escritorio Waze + SQL Server: crea empresa, licencia, elige paquete (producto / docs / soporte) y contáctanos por WhatsApp."
+  },
+  "nav": {
+    "home": "AvlMonitor inicio",
+    "main": "Principal",
+    "product": "Beneficios",
+    "plans": "Planes",
+    "local": "Licencia local",
+    "install": "Cómo empezar",
+    "cta": "Ir al panel P2L",
+    "menu_open": "Abrir menú",
+    "menu_close": "Cerrar menú",
+    "language": "Idioma"
+  },
+  "hero": {
+    "eyebrow": "App de escritorio <strong>.NET</strong> (WPF): usuarios con permisos, CRUD, localizador de direcciones en <strong>SQL Server</strong> (<strong>SPs/triggers</strong>) con geocoding, y <strong>georreferenciación de móviles en tiempo real</strong> sobre interfaz tipo <strong>Waze</strong> — con <strong>MVVM</strong> e inyección de dependencias (<strong>DI</strong>).",
+    "title": "Georreferencia móviles en el mapa de <em>Waze</em>, desde la infraestructura de red de tu organización y sin salir a internet",
+    "lead": "AvlMonitor es un producto digital: creas tu empresa en el panel P2L, recibes una clave de licencia, eliges un paquete y nos contactas por WhatsApp. Luego activas el cliente en tu PC con un archivo .env.",
+    "cta_dash": "Crear empresa y obtener licencia",
+    "cta_guide": "Ver guía de instalación",
+    "badges": [
+      { "icon": "🔑", "strong": "Licencia", "rest": "clave al crear empresa" },
+      { "icon": "📦", "strong": "ZIP", "rest": "cliente escritorio" },
+      { "icon": "💬", "strong": "WhatsApp", "rest": "+57 318 098 4087" }
+    ]
+  },
+  "product": {
+    "tag": "En qué consiste",
+    "title": "Georreferencia y haz seguimiento de móviles donde ya trabajas: desde tu base de datos SQL Server",
+    "lead": "No es un SaaS de mapa en el navegador: es un cliente Windows que conectas a tu SQL Server, con Waze embebido. La compra y la licencia viven en el panel web P2L; la operación diaria, en tu escritorio.",
+    "c1_title": "El mapa que tu equipo ya entiende",
+    "c1_text": "Tráfico, calles e incidentes de Waze en tiempo real, dentro de la aplicación. Menos curva de aprendizaje, más foco en la operación.",
+    "c2_title": "Direcciones desde tu SQL Server",
+    "c2_text": "Busca, guarda y centra puntos que viven en tu base. Geocoding y reverse geocoding listos para el despacho del día.",
+    "c3_title": "Móviles georreferenciados en vivo",
+    "c3_text": "Sigue la posición de móviles en el mapa en tiempo real. Un solo lugar para ver dónde está cada punto."
+  },
+  "stack": {
+    "title": "Qué incluye el producto",
+    "lead": "Tres paquetes comerciales. Por ahora la compra se cierra por WhatsApp. La guía de instalación es gratis; la clave de licencia se genera al crear tu empresa en el panel.",
+    "i1": "Cliente Windows (.NET WPF + Waze + SQL local)",
+    "i2": "Clave de licencia P2L_COMPANY_KEY (una sola vez al alta)",
+    "i3": "ID de compañía P2L_COMPANY_ID (siempre visible en el panel)",
+    "i4": "Contacto WhatsApp +57 318 098 4087"
+  },
+  "plans": {
+    "tag": "Paquetes",
+    "title": "Elige cómo quieres adquirir AvlMonitor",
+    "lead": "Tres opciones. Escríbenos por WhatsApp al +57 318 098 4087 para cerrar la compra. Después creas tu empresa en el panel P2L y activas el software en local.",
+    "wa_label": "Contactar WhatsApp",
+    "wa_hint": "+57 318 098 4087",
+    "items": [
+      {
+        "tone": "starter",
+        "tier": "PRODUCTO",
+        "headline": "Cliente AvlMonitor (ZIP)",
+        "billing": "Producto digital · ZIP del cliente .NET",
+        "microcopy": "Incluye licencia P2L, guía de instalación y descarga del código fuente del escritorio.",
+        "waMessage": "Hola, me interesa el paquete PRODUCTO AvlMonitor (cliente .NET WPF + ZIP) desde la landing.",
+        "features": [
+          "Cliente Windows (.NET 8 + WPF + Waze + SQL Server)",
+          "Georreferenciación y seguimiento de móviles en tiempo real",
+          "ZIP del código fuente AvlMonitor",
+          "Clave de licencia + activación local con .env",
+          "Guía de instalación gratis en el panel"
+        ]
+      },
+      {
+        "tone": "growth",
+        "tier": "PRODUCTO + DOCS",
+        "headline": "Producto + documentación de desarrollo",
+        "billing": "Producto + planes de arquitectura y despliegue",
+        "microcopy": "Además del ZIP .NET, entregamos el portfolio de planes de desarrollo (arquitectura, despliegue, dinámica dashboard/licencia).",
+        "waMessage": "Hola, me interesa AvlMonitor + documentación de arquitectura y planes de desarrollo (producto + docs).",
+        "features": [
+          "Todo lo del paquete Producto (ZIP AvlMonitor)",
+          "Planes de desarrollo / arquitectura de la aplicación",
+          "Documentación de despliegue del cliente escritorio",
+          "Dinámica de dashboard, licencia y producto digital",
+          "Material de cobertura DevCoverage (WPF)"
+        ]
+      },
+      {
+        "tone": "business",
+        "tier": "PRODUCTO + DOCS + SOPORTE",
+        "headline": "Producto + docs + soporte de desarrollo",
+        "billing": "Producto + docs + acompañamiento técnico",
+        "microcopy": "Paquete completo: ZIP, documentación de arquitectura/despliegue y soporte de desarrollo (acompañamiento).",
+        "waMessage": "Hola, me interesa el paquete completo AvlMonitor (producto + documentación + soporte/acompañamiento de desarrollo).",
+        "features": [
+          "Todo lo de Producto + Docs",
+          "Soporte / acompañamiento de desarrollo",
+          "Ayuda para instalación, .env y arranque en Windows",
+          "Orientación sobre SQL Server, Waze y licencia P2L",
+          "Canal WhatsApp de seguimiento técnico"
+        ]
+      }
+    ]
+  },
+  "local": {
+    "title": "Cómo se activa la licencia en local",
+    "lead": "Al crear la empresa, el panel genera una clave de licencia. Junto con el ID de compañía y el backend P2L, esa clave activa AvlMonitor en tu PC mediante un archivo .env.",
+    "b1_title": "Clave solo al crear la empresa",
+    "b1_text": "El panel muestra P2L_COMPANY_KEY una sola vez: cópiala y guárdala. El P2L_COMPANY_ID queda visible siempre en tu cuenta.",
+    "b2_title": "WhatsApp → panel → .env",
+    "b2_text": "Nos contactas, creas la empresa, obtienes el ZIP según tu paquete y configuras el .env con ID, clave y P2L_BACKEND_BASE.",
+    "b3_title": "Validación contra P2L",
+    "b3_text": "Al abrir AvlMonitor, la app valida la licencia con el backend P2L. Si ID y clave son correctos, el software queda activo en tu equipo."
+  },
+  "install": {
+    "title": "Cómo empezar (el producto completo)",
+    "lead": "Misma dinámica que en el panel P2L Desktop. Elige un paquete, contáctanos por WhatsApp y activa en local.",
+    "s1_title": "1. Crear empresa",
+    "s1_text": "Entra al panel con Google y registra tu compañía. Se genera la clave de licencia (solo se muestra una vez) y el P2L_COMPANY_ID.",
+    "s2_title": "2. Elegir paquete",
+    "s2_text": "Producto, Producto+Docs o Producto+Docs+Soporte. Contáctanos por WhatsApp +57 318 098 4087.",
+    "s3_title": "3. Recibir el ZIP",
+    "s3_text": "Según el paquete acordado recibes AvlMonitor.zip (y docs/soporte si aplica). Descomprímelo en Windows.",
+    "s4_title": "4. Activar en local",
+    "s4_text": "Pega P2L_COMPANY_ID, P2L_COMPANY_KEY y P2L_BACKEND_BASE en el .env junto a la app WPF y arranca AvlMonitor."
+  },
+  "cta": {
+    "title": "Listo para crear la cuenta de tu empresa y activar AVLMonitor?",
+    "text": "Elige un paquete arriba, escríbenos por WhatsApp y completa el alta en el panel P2L. Esta página no entrega el ZIP.",
+    "dash": "Ir al panel P2L",
+    "guide": "Abrir guía de instalación"
+  },
+  "footer": {
+    "blurb": "AvlMonitor — georreferenciación de móviles en escritorio. Compra por WhatsApp +57 318 098 4087. Powered by P2L.",
+    "copy": "AvlMonitor · P2L Desktop"
+  }
+}
