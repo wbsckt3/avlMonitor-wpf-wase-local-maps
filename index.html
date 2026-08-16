@@ -122,49 +122,48 @@
     }
 
     .hero {
-      padding: calc(var(--header-h) + 40px) 0 0;
+      padding: calc(var(--header-h) + 36px) 0 48px;
       background:
         radial-gradient(ellipse 80% 60% at 100% 0%, rgba(20,184,166,0.16), transparent 60%),
         radial-gradient(ellipse 55% 45% at 0% 80%, rgba(13,148,136,0.1), transparent 55%),
         linear-gradient(180deg, #f8fffe 0%, #ffffff 70%);
     }
     .hero__grid {
-      display: grid; grid-template-columns: 1.05fr 1fr; gap: 36px; align-items: end;
-      min-height: min(78vh, 720px);
+      display: grid; grid-template-columns: 1fr 1.05fr; gap: 40px; align-items: start;
     }
+    .hero__copy { padding-top: 4px; }
     .hero__eyebrow {
-      display: inline-block; padding: 14px 18px; border-radius: 16px;
+      display: inline-flex; align-items: center; padding: 6px 12px; border-radius: 999px;
       background: var(--teal-50); border: 1px solid var(--teal-200); color: var(--teal-800);
-      font-size: clamp(0.98rem, 2.1vw, 1.18rem); font-weight: 600; line-height: 1.45;
-      margin-bottom: 18px; max-width: 42rem; letter-spacing: -0.01em;
+      font-size: 0.82rem; font-weight: 700; line-height: 1.3;
+      margin-bottom: 14px; letter-spacing: 0.01em;
     }
     .hero__eyebrow strong {
       color: var(--ink); font-weight: 800;
     }
     .hero__title {
-      margin: 0 0 14px; font-size: clamp(2rem, 4.2vw, 3rem);
-      line-height: 1.1; letter-spacing: -0.03em; font-weight: 800; max-width: 16ch;
+      margin: 0 0 12px; font-size: clamp(1.75rem, 3.6vw, 2.55rem);
+      line-height: 1.15; letter-spacing: -0.03em; font-weight: 800; max-width: 18ch;
     }
     .hero__title em { font-style: normal; color: var(--teal-600); }
     .hero__lead {
-      margin: 0 0 24px; color: var(--muted); font-size: clamp(1rem, 1.8vw, 1.12rem); max-width: 38rem;
+      margin: 0 0 20px; color: var(--muted); font-size: 1rem; line-height: 1.45; max-width: 34rem;
     }
-    .hero__ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 22px; }
-    .hero__badges { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 28px; }
+    .hero__ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
+    .hero__badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 0; }
     .hero__badge {
-      display: inline-flex; align-items: center; gap: 6px; padding: 8px 12px; border-radius: 12px;
-      background: #fff; border: 1px solid var(--line); font-size: 0.82rem; font-weight: 600; color: var(--muted);
+      display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border-radius: 12px;
+      background: #fff; border: 1px solid var(--line); font-size: 0.78rem; font-weight: 600; color: var(--muted);
     }
     .hero__badge strong { color: var(--ink); }
     .hero__visual {
-      position: relative; margin: 0; border-radius: 24px 24px 0 0; overflow: hidden;
-      box-shadow: var(--shadow); border: 1px solid var(--line); border-bottom: none;
-      background: #0f172a; min-height: 320px;
+      position: relative; margin: 0; border-radius: 20px; overflow: hidden;
+      box-shadow: var(--shadow); border: 1px solid var(--line);
+      background: #0f172a; align-self: start;
       animation: riseIn 0.7s ease both;
     }
     .hero__visual img {
-      width: 100%; height: 100%; object-fit: cover; object-position: center top;
-      min-height: 360px;
+      width: 100%; height: auto; display: block; object-fit: contain;
     }
     .hero__visual-caption {
       position: absolute; left: 16px; bottom: 16px; padding: 8px 12px; border-radius: 999px;
@@ -323,10 +322,10 @@
       .steps, .plan-grid { grid-template-columns: repeat(2, 1fr); }
     }
     @media (max-width: 900px) {
-      .hero__grid { grid-template-columns: 1fr; min-height: 0; }
+      .hero { padding-bottom: 32px; }
+      .hero__grid { grid-template-columns: 1fr; gap: 24px; }
       .hero__title { max-width: none; }
-      .hero__visual { border-radius: 20px; border: 1px solid var(--line); margin-bottom: 24px; }
-      .hero__visual img { min-height: 240px; }
+      .hero__visual { order: -1; }
       .cards, .steps, .stack-list, .plan-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 720px) {
@@ -389,10 +388,10 @@
     <section class="hero">
       <div class="container hero__grid">
         <div class="hero__copy" style="animation: riseIn 0.55s ease both;">
-          <div class="hero__eyebrow" data-i18n="hero.eyebrow" data-i18n-html>App de escritorio <strong>.NET</strong> (WPF): usuarios con permisos, CRUD, localizador de direcciones en <strong>SQL Server</strong> (<strong>SPs/triggers</strong>) con geocoding, y <strong>georreferenciación de móviles en tiempo real</strong> sobre interfaz tipo <strong>Waze</strong> — con <strong>MVVM</strong> e inyección de dependencias (<strong>DI</strong>).</div>
-          <h1 class="hero__title" data-i18n="hero.title" data-i18n-html>Georreferencia móviles en el mapa de <em>Waze</em>, desde la infraestructura de red de tu organización y sin salir a internet</h1>
+          <div class="hero__eyebrow" data-i18n="hero.eyebrow" data-i18n-html>App de escritorio <strong>.NET</strong> · SQL Server · mapa <strong>Waze</strong></div>
+          <h1 class="hero__title" data-i18n="hero.title" data-i18n-html>Georreferencia móviles en el mapa de <em>Waze</em>, en tu red y sin salir a internet</h1>
           <p class="hero__lead" data-i18n="hero.lead">
-            AvlMonitor es un producto digital: creas tu empresa en el panel P2L, recibes una clave de licencia, pagas un solo plan, descargas el ZIP y lo activas en tu PC con un archivo .env.
+            Crea tu empresa en P2L, recibe la licencia y activa el cliente en tu PC.
           </p>
           <div class="hero__ctas">
             <a class="btn btn--primary btn--lg" href="https://www.refactorii.com/p2l-tenant/login/dashboard-wpf" data-i18n="hero.cta_dash">Crear empresa y obtener licencia</a>
@@ -562,7 +561,7 @@
   </footer>
 
   <script src="https://unpkg.com/i18next@23.4.6/i18next.min.js"></script>
-  <script src="scripts/locales-embed.js?v=20260714j"></script>
+  <script src="scripts/locales-embed.js?v=20260815a"></script>
   <script src="scripts/i18n.js?v=20260714j"></script>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();

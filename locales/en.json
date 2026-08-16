@@ -16,9 +16,9 @@
     "language": "Language"
   },
   "hero": {
-    "eyebrow": "Desktop <strong>.NET</strong> (WPF) app: users with permissions, CRUD, address lookup in <strong>SQL Server</strong> (<strong>SPs/triggers</strong>) via geocoding, and <strong>real-time mobile georeferencing</strong> on a <strong>Waze</strong>-style map — with <strong>MVVM</strong> and dependency injection (<strong>DI</strong>).",
-    "title": "Georeference mobiles on the <em>Waze</em> map, from your organization’s network infrastructure and without going out to the internet",
-    "lead": "AvlMonitor is a digital product: create your company in the P2L panel, receive a license key, choose a package, and contact us on WhatsApp. Then activate the client on your PC with a .env file.",
+    "eyebrow": "Desktop <strong>.NET</strong> app · SQL Server · <strong>Waze</strong> map",
+    "title": "Georeference mobiles on the <em>Waze</em> map, on your network and without going out to the internet",
+    "lead": "Create your company in P2L, get the license, and activate the client on your PC.",
     "cta_dash": "Create company and get license",
     "cta_guide": "See installation guide",
     "badges": [

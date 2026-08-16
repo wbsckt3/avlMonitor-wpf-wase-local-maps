@@ -18,9 +18,9 @@ window.AVL_MONITOR_I18N_RESOURCES = {
         "language": "Idioma"
       },
       "hero": {
-        "eyebrow": "App de escritorio <strong>.NET</strong> (WPF): usuarios con permisos, CRUD, localizador de direcciones en <strong>SQL Server</strong> (<strong>SPs/triggers</strong>) con geocoding, y <strong>georreferenciación de móviles en tiempo real</strong> sobre interfaz tipo <strong>Waze</strong> — con <strong>MVVM</strong> e inyección de dependencias (<strong>DI</strong>).",
-        "title": "Georreferencia móviles en el mapa de <em>Waze</em>, desde la infraestructura de red de tu organización y sin salir a internet",
-        "lead": "AvlMonitor es un producto digital: creas tu empresa en el panel P2L, recibes una clave de licencia, eliges un paquete y nos contactas por WhatsApp. Luego activas el cliente en tu PC con un archivo .env.",
+        "eyebrow": "App de escritorio <strong>.NET</strong> · SQL Server · mapa <strong>Waze</strong>",
+        "title": "Georreferencia móviles en el mapa de <em>Waze</em>, en tu red y sin salir a internet",
+        "lead": "Crea tu empresa en P2L, recibe la licencia y activa el cliente en tu PC.",
         "cta_dash": "Crear empresa y obtener licencia",
         "cta_guide": "Ver guía de instalación",
         "badges": [
@@ -167,9 +167,9 @@ window.AVL_MONITOR_I18N_RESOURCES = {
         "language": "Language"
       },
       "hero": {
-        "eyebrow": "Desktop <strong>.NET</strong> (WPF) app: users with permissions, CRUD, address lookup in <strong>SQL Server</strong> (<strong>SPs/triggers</strong>) via geocoding, and <strong>real-time mobile georeferencing</strong> on a <strong>Waze</strong>-style map — with <strong>MVVM</strong> and dependency injection (<strong>DI</strong>).",
-        "title": "Georeference mobiles on the <em>Waze</em> map, from your organization’s network infrastructure and without going out to the internet",
-        "lead": "AvlMonitor is a digital product: create your company in the P2L panel, receive a license key, choose a package, and contact us on WhatsApp. Then activate the client on your PC with a .env file.",
+        "eyebrow": "Desktop <strong>.NET</strong> app · SQL Server · <strong>Waze</strong> map",
+        "title": "Georeference mobiles on the <em>Waze</em> map, on your network and without going out to the internet",
+        "lead": "Create your company in P2L, get the license, and activate the client on your PC.",
         "cta_dash": "Create company and get license",
         "cta_guide": "See installation guide",
         "badges": [
